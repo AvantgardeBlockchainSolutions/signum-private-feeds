@@ -100,7 +100,7 @@ Replace the contract address under chainId 369, with the contract address of you
 "369": "0x09D07923EA339A2aDe40f44BCEE74b2A88a99a54"
 ```
 Save and Close
-```
+
 3) Change directory (cd) into the signum-feeds folder that you just downloaded:
 ```
 cd signum-private-feeds
