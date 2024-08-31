@@ -93,9 +93,12 @@ git clone https://github.com/AvantgardeBlockchainSolutions/signum-private-feeds
 3) Edit signum-core contract_directory.json with your private oracle address:
 ```
 nano signum-core/src/telliot_core/data/contract_directory.json
+```
 Scroll down within this file to contract addresses for "tellor360-oracle"
 Replace the contract address under chainId 369, with the contract address of your private oracle:
+```
 "369": "0x09D07923EA339A2aDe40f44BCEE74b2A88a99a54"
+```
 Save and Close
 ```
 3) Change directory (cd) into the signum-feeds folder that you just downloaded:
