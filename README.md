@@ -1,4 +1,4 @@
-# Signum Feeds
+# Signum Private Feeds
 
 This package contains reporting tools and datafeeds for Signum oracle.
 
@@ -9,16 +9,16 @@ This package contains reporting tools and datafeeds for Signum oracle.
 [SignumToken](https://scan.9mm.pro/address/0x113c82608A84bD47eE90a7A498b2663f3A7B977C?tab=contract)
 
 # How to Install Signum
-This is a step by step guide for how to install Signum Feeds using the command line. Signum Feeds is an open source client based on a fork of Tellor’s Telliot Feeds for interacting with the Signum oracle. The methods outlined here were confirmed on a fresh installation of Ubuntu 20.04 LTS. Individual commands will differ with other environments (particularly for installing python 3.9), but the process is relatively similar for setting up Telliot on Mac (requires homebrew). You may use powershell if you’re familiar with using python on windows or use WSL (ubuntu 20.04) for better compatibility with this guide.
+This is a step by step guide for how to install Signum Private Feeds using the command line. Signum Private Feeds is an open source client based on a fork of Tellor’s Telliot Feeds for interacting with the Signum oracle. The methods outlined here were confirmed on a fresh installation of Ubuntu 20.04 LTS. Individual commands will differ with other environments (particularly for installing python 3.9), but the process is relatively similar for setting up Telliot on Mac (requires homebrew). You may use powershell if you’re familiar with using python on windows or use WSL (ubuntu 20.04) for better compatibility with this guide.
 
 # Prerequisites:
 - A computer, virtual machine, or windows subsystem for linux running ubuntu version 20.04. (other versions are probably fine, but 20.04 was used for testing this guide)
 - A PulseChain address that has SRB tokens and native tokens (gas) for the network on which you want to report oracle data.
 The Guide
 - This is a beginner-friendly guide. Familiarity with the command line will be helpful, but otherwise no assumptions are made about your technical skills. We will go over in detail the commands necessary to:
-• Install python 3.9 (Signum Feeds will not work with other versions like 3.8 or 3.10)
+• Install python 3.9 (Signum Private Feeds will not work with other versions like 3.8 or 3.10)
 • Create a python virtual environment
-• Install Signum Feeds
+• Install Signum Private Feeds
 • Configure RPC endpoints
 • Verify Installation
 
@@ -63,7 +63,7 @@ python3 -V
 Important: If you’ve completed the steps and your python3 version is anything other than 3.9.xx, you will not be able to use signum. Please make sure you are running python 3.9 before you continue.
 
 # Create a Python Virtual Environment
-A python virtual environment is like a container where Signum Feeds will be installed on your machine. Working in a virtual environment is not mandatory, but it helps in avoiding dependency conflicts if you plan on using the computer/VM for running other python software.
+A python virtual environment is like a container where Signum Private Feeds will be installed on your machine. Working in a virtual environment is not mandatory, but it helps in avoiding dependency conflicts if you plan on using the computer/VM for running other python software.
 
 1)Install venv:
 ```
@@ -81,7 +81,7 @@ source tenv/bin/activate
 ```
 
 
-# Install Signum Feeds
+# Install Signum Private Feeds
 1) Clone the signum-core repo:
 ```
 git clone https://github.com/AvantgardeBlockchainSolutions/signum-core
