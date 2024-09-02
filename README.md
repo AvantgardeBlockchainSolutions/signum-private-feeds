@@ -84,11 +84,11 @@ source tenv/bin/activate
 # Install Signum Private Feeds
 1) Clone the signum-core repo:
 ```
-git clone https://github.com/AvantgardeBlockchainSolutions/signum-core
+git clone https://github.com/SignumOracle/signum-core
 ```
 2) Clone the signum-feeds repo:
 ```
-git clone https://github.com/AvantgardeBlockchainSolutions/signum-private-feeds
+git clone https://github.com/SignumOracle/signum-private-feeds
 ```
 3) Edit signum-core contract_directory.json with your private oracle address:
 ```
